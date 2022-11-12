@@ -11,7 +11,7 @@
 <!--  <app-product [product]="products[8]"></app-product>-->
 <!--  <app-product [product]="products[9]"></app-product>-->
 <!--  <app-product [product]="products[10]"></app-product>-->
-<p *ngIf= "loading" class="text-centre text-lg">Loading...</p>
+<p *ngIf= "loading" class="text-center text-lg">Loading...</p>
     <app-product
       *ngFor="let product of products$ | async; let i=index"
       [product]="product">
