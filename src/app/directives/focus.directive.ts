@@ -13,6 +13,8 @@ export class FocusDirective implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
+    this.el.nativeElement.focus()
+
   }
 
 }
